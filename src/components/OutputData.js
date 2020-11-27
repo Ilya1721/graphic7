@@ -26,6 +26,7 @@ class OutputData extends React.Component {
     const { p1, p2, p3, p4, p5 } = this.props.secondTask;
     const arr = [p1, p2, p3, p4, p5];
     const arr2 = [...arr, p5 - 0.05];
+
     let sum = 0;
     arr.forEach((p) => {
       sum += log(1 - p);

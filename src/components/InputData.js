@@ -59,8 +59,8 @@ class InputData extends React.Component {
           </thead>
           <tbody>
             <tr>
-              <td>{thirdTask.t}</td>
-              <td>{thirdTask.p}</td>
+              <td>{thirdTask.c}</td>
+              <td>{thirdTask.l}</td>
             </tr>
           </tbody>
         </table>
